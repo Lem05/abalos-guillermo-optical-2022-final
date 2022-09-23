@@ -5,6 +5,9 @@ h2, h3{
     margin-top: 20px;
 }
 .left_form{
+    height:100vh;
+    display:flex
+    text-align:center;
     position: relative;
     top: 180px;
     left: 80%;
