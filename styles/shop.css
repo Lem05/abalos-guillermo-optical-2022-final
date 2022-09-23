@@ -1,0 +1,92 @@
+/*google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Rubik:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;900&display=swap');
+/*Remove default*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: "Rubik", sans-serif;
+    font-family: "Noto Serif Display", serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--color3);
+    font-family: Poppins;
+}
+:root{
+    --background-color: #285F97;
+    --color2: #92B8DD;
+    --button: #FF8182;
+    --color3: #ededed;
+    --color4: #FFDCE2;
+    --color5: white;
+    --text-color: black;
+    --light: #ffffff;
+    --dark: #000;
+}
+/*shop content*/
+.shop-content img{
+    width: 330px;
+    height: 330px;
+}
+.shop-container{
+    padding-top: 200px
+}
+.shop-content{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 80px;
+    margin-bottom: 100px;
+    min-height: 100vh;
+}
+.product-box{
+    align-items: center;
+    border: 1px solid rgb(225, 174, 78);
+    
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 700;
+    font-size: 50px;
+    height: 100px;
+    font-family: Poppins;
+    margin-top: -100px;
+}
+.product-title{
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: flex-start;
+    padding-left: 20px;
+    font-family: Poppins;
+}
+.price{
+    align-items: flex-start;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+#cart-btn{
+    float: right;
+    padding-right: 20px;
+    font-size: 40px;
+    color: var(--main-color);
+    cursor: pointer;
+}
+#cart-btn:hover{
+    color: purple;
+    transition: 200ms ease-in;
+}

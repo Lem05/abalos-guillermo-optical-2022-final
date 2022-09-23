@@ -1,0 +1,65 @@
+
+.contact-hero{
+    text-align: center;
+    margin-top: 50px;
+}
+.contact-heading{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 60px;
+}
+.contact-hero p{
+    font-size: 30px;
+    font-family: 'Poppins';
+}
+.location-list{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 100px;
+    height: 100vh;
+}
+.branch-1-title,
+.branch-2-title,
+.branch-3-title
+{
+    font-size: 24px;
+    color: var(--light);
+    padding-bottom: 20px;
+    font-family: Poppins;
+}
+.branch-list{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    background-color: var(--background-color);
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 9px 37px 0px #000000; 
+    box-shadow: 1px 9px 37px 0px #000000;
+    margin-top: -300px;
+}
+.branch-1-text{
+    color: var(--color3);
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: Poppins;
+}
+.gmap{
+    width: auto;
+    margin-bottom: 30px;
+}
+.branch-list .visit-btn{
+    background-color: var(--button);
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    color: #285F97;
+    font-family: Poppins;
+    font-size: 20px;
+}
+.visit-btn:hover{
+    background-color: var(--light);
+    color: var(--background-color);
+}

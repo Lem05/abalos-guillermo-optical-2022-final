@@ -1,0 +1,134 @@
+/*google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Rubik:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;900&display=swap');
+/*Remove default*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: "Rubik", sans-serif;
+    font-family: "Noto Serif Display", serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--color3);
+}
+:root{
+    --background-color: #285F97;
+    --color2: #92B8DD;
+    --button: #FF8182;
+    --color3: #ededed;
+    --color4: #FFDCE2;
+    --color5: white;
+    --text-color: black;
+    --light: #ffffff;
+    --dark: #000;
+}
+header{
+    background-color: var(--background-color);
+    position: fixed;
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 0px 1px 10px #999;
+    padding: 10px 0;
+    z-index: 2;
+}
+.top-header{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.top-header i {
+    color:whitesmoke;
+    font-family: Poppins;
+}
+.top-header :nth-child(2),
+.top-header :nth-child(3){
+    margin-right: 25px;
+}
+
+.main-logo{
+    flex: 2;
+}
+.main-logo h1{
+    color: var(--color5);
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: Montserrat;
+    text-transform: capitalize;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+}
+.branch-location, .profile, .cart-icon{
+    font-size: 30px;
+}
+
+.branch-location {
+    padding: 0 5px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+}
+.branch-location:hover{
+    background-color: var(--button);
+    transition: 200ms ease-in;
+}
+.branch{
+    color: var(--color5);
+    margin-left: 5px;
+    font-weight: 400;
+}
+.profile, .cart-icon{
+    padding: 5px;
+    font-size: 40px;
+    padding: 0;
+}
+.profile i:hover{
+    background-color: var(--button);
+    transition: 200ms ease-in;
+    border-radius: 10px;
+
+}
+.cart-icon i:hover{
+    background-color: var(--button);
+    transition: 200ms ease-in;
+    border-radius: 10px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 110px;
+    justify-content: center;
+    gap: 50px;
+}
+.nav-list h1{
+    color: var(--text-color);
+    font-size: 24px;
+    font-family: Poppins;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+.nav-list a{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 4px;
+}
+.nav-list a:hover{
+    background-color: var(--button);
+    transition: 200ms ease-in;
+}
+.nav-list .active:active{
+    background-color: var(--button);
+}

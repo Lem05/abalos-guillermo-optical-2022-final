@@ -1,0 +1,303 @@
+/*google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Rubik:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;900&display=swap');
+/*Remove default*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: "Rubik", sans-serif;
+    font-family: "Noto Serif Display", serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--color3);
+}
+:root{
+    --background-color: #285F97;
+    --color2: #92B8DD;
+    --button: #FF8182;
+    --color3: #ededed;
+    --color4: #FFDCE2;
+    --color5: white;
+    --text-color: black;
+    --light: #ffffff;
+    --dark: #000;
+}
+header{
+    background-color: var(--background-color);
+    position: fixed;
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 0px 1px 10px #999;
+    padding: 10px 0;
+    z-index: 2;
+}
+.top-header{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.top-header i {
+    color:whitesmoke;
+    font-family: Poppins;
+}
+.top-header :nth-child(3),
+.top-header :nth-child(4){
+    margin-right: 25px;
+}
+
+.main-logo{
+    flex: 2;
+}
+.main-logo h1{
+    color: var(--color5);
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: Montserrat;
+    text-transform: capitalize;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+}
+.branch-location, .profile, .cart-icon{
+    font-size: 30px;
+}
+
+.branch-location {
+    padding: 0 5px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+}
+.branch-location:hover{
+    background-color: var(--button);
+    transition: 200ms ease-in;
+}
+.branch{
+    color: var(--color5);
+    margin-left: 5px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+.profile, .cart-icon{
+    padding: 5px;
+    font-size: 40px;
+    padding: 0;
+}
+.profile i:hover{
+    background-color: var(--button);
+    transition: 200ms ease-in;
+    border-radius: 10px;
+
+}
+.cart-icon i:hover{
+    background-color: var(--button);
+    transition: 200ms ease-in;
+    border-radius: 10px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 110px;
+    justify-content: center;
+    gap: 50px;
+}
+.nav-list .navlist-h1{
+    color: var(--text-color);
+    font-size: 16px;
+    font-family: Poppins;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+.navlist-h1{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 4px;
+}
+.navlist-h1:hover{
+    background-color: var(--button);
+    transition: 200ms ease-in;
+}
+
+
+/*END OF CSS NAV BAR*/
+
+.promo-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    text-align: center;
+}
+.promo-hero{
+    height: 60vh;
+    align-items: center;
+}
+.promo-hero .promo-video{
+    display: flex;
+    width: 720px;
+    height: 360px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 7px 14px -3px rgba(0,0,0,0.54); 
+    box-shadow: 2px 7px 14px -3px rgba(0,0,0,0.54);
+}
+.call-to-action{
+    text-align: center;
+    justify-content: center;
+}
+.register-now{
+    padding-bottom: 20px;
+    font-family: "Poppins";
+    font-size: 35px;
+    color: #0080ff;
+    font-weight: 600;
+    text-shadow: -2px 4px 8px rgba(11, 18, 25, 0.4);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.cta-register{
+    border: none;
+    background-color: var(--background-color);
+    color: var(--button);
+    padding: 10px 20px;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 5px 20px -4px #000000; 
+    box-shadow: 1px 5px 20px -4px #000000;
+    max-width: 400px;
+    align-items: center;
+    font-family: Poppins;
+}
+
+.cta-register:hover{
+    background-color: var(--light);
+    color: var(--background-color);
+    transition: 200ms ease-in;
+}
+.cta-text{
+    font-family: Poppins;
+    color: var(--button);
+}
+/*Brand Logo Carousel*/
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+.logo-slider{
+    display: flex;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    height: 40vh;
+}
+.logo-carousel{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+.logo-slider {
+     overflow: hidden; 
+}
+.logo-slider .logo-carousel img {
+     width: 250px; 
+}
+.logo-slider .logo-carousel { 
+    position: relative;
+    text-align: center;
+    font-size: 0;
+    animation: 150s slidy infinite; 
+}
+/*Category Items*/
+.cat-text-head{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.category-list{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.men-eyewear,
+.women-eyewear,
+.kids-eyewear{
+    border: 0.5px solid var(--background-color);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+    width: 330px;
+    height: auto;
+    border-radius: 4px;  
+}
+
+.category-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.men-eyewear{
+    background-image:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(/img/menglass1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.women-eyewear{
+    background-image:linear-gradient(0deg, rgba(3, 0, 195, 0.3), rgba(255, 0, 150, 0.3)), url(/img/woman-card-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kids-eyewear{
+    background-image:linear-gradient(0deg, rgba(31, 7, 215, 0.3), rgba(136, 68, 102, 0.3)), url(/img/kid-card-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.goto-shop-btn{
+    background-color:var(--color5);
+    border: none;
+    padding: 5px 20px;
+    border-radius: 4px;
+    margin-top: 50px;
+}
+.goto-shop{
+    font-size: 21px;
+    color: var(--background-color);
+}
+.goto-shop-btn:hover, .goto-shop:hover{
+    background-color: var(--background-color);
+    color: var(--button);
+}
+/*--------Mobile Resposive------*/
