@@ -9,8 +9,6 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-    font-family: "Rubik", sans-serif;
-    font-family: "Noto Serif Display", serif;
     scroll-behavior: smooth;
     list-style: none;
     text-decoration: none;
@@ -49,7 +47,7 @@ header{
 }
 .top-header i {
     color:whitesmoke;
-    font-family: Poppins;
+    font-family: 'Poppins';
 }
 .top-header :nth-child(3),
 .top-header :nth-child(4){
@@ -63,7 +61,7 @@ header{
     color: var(--color5);
     letter-spacing: 2px;
     font-weight: 500;
-    font-family: Montserrat;
+    font-family: "Montserrat";
     text-transform: capitalize;
     font-size: 40px;
     text-align: center;
@@ -87,7 +85,7 @@ header{
     color: var(--color5);
     margin-left: 5px;
     font-weight: 400;
-    font-family: Poppins;
+    font-family: 'Poppins';
 }
 .profile, .cart-icon{
     padding: 5px;
@@ -116,7 +114,7 @@ header{
 .nav-list .navlist-h1{
     color: var(--text-color);
     font-size: 16px;
-    font-family: Poppins;
+    font-family:"Poppins";
     text-transform: uppercase;
     letter-spacing: 0.5px;
     font-weight: 700;
