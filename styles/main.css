@@ -268,19 +268,19 @@ header{
     color: #FFFFFF;
 }
 .men-eyewear{
-    background-image:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(/img/menglass1.jpg);
+    background-image:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url("../img/menglass1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .women-eyewear{
-    background-image:linear-gradient(0deg, rgba(3, 0, 195, 0.3), rgba(255, 0, 150, 0.3)), url(/img/woman-card-1.jpg);
+    background-image:linear-gradient(0deg, rgba(3, 0, 195, 0.3), rgba(255, 0, 150, 0.3)), url("../img/woman-card-1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .kids-eyewear{
-    background-image:linear-gradient(0deg, rgba(31, 7, 215, 0.3), rgba(136, 68, 102, 0.3)), url(/img/kid-card-4.jpg);
+    background-image:linear-gradient(0deg, rgba(31, 7, 215, 0.3), rgba(136, 68, 102, 0.3)), url("../img/kid-card-4.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
