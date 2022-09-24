@@ -1,12 +1,17 @@
+.form-body{
+    display: flex;  
+}
 .appointform{
     position: relative;
-    top: 320px;
+    top: 300px;
     left: 775px;
     transform: translate(-50%, -50%);
     width: 450px;
     background: linear-gradient(120deg, #285F97, #92B8DD);
     border-radius: 10px;
     padding: 0 30px 30px 30px;
+    margin-top: 200px;
+    margin-bottom: 150px;
 }
 .headcenter{
     text-align: center;
